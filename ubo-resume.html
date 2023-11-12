@@ -1,28 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-   <title>Mon CV</title>
-   <meta name="description" content="A propos de moi">
-   <meta name="keywords" content="web, developer,resume" />
-   <meta name="author" content="Mon nom">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <!--[if It IE 9]>
-   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Data Engineer</title>
+    <link rel="stylesheet" href="css/resume.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-   <header>
-      <h1>Hanae Lahbouchi</h1>
-      <h2>Data Engineer</h2>
-      <img src="photo.jpg" alt="photo" width="200">
-      <p>Nom: Lahbouchi</p>
-      <p>Prenom: Hanae</p>
-      <p>Adresse: 2 rue des archives</p>
-      <p>Age: 21</p>
-      <p>Email: lahbouchi.hanae@gmail.com</p>
-      <p>Nationalité: Marocaine</p>
-   </header>
-   <div id="wrapper"></div>
+    <div class="cv-container">
+        
+        <aside class="cv-sidebar">
+            <div class ="profile-container">
+            <img src="photo.jpg" alt="maPhoto" class="profile-image">
+            </div>
+            <div class="contact-info">
+                <h3>Contact</h3>
+                <p>Tel: +33 7 58 00 31 37</p>
+                <p>Email: lahbouchi.hanae@gmail.com</p>
+                <p>Linkedin: /in/hanae-lahbouchi-51103419a</p>
+            </div>
+            <div class="cv-languages">
+                <h3>Langues</h3>
+                <p>Arabe:langue maternelle</p>
+                <p>Français - C1</p>
+                <p>Anglais - C1</p>
+            </div>
+            <div class="cv-skills">
+                <h3>Compétences</h3>
+                <ul>
+                    <li>Langage de programmation: Python, R, Java, Scala</li>
+                    <li>Base de données: SQL, PL/SQL, NoSQL, Oracle</li>
+                    <li>Système : Windows, Ubuntu, PowerShell</li> 
+                    <li>Big Data: Spark(Pyspark-Scala), Hadoop(HDFS, Hive, Cloudera, MapReduce, Sqoop, Pig)</li>
+                    <li>Cloud Computing: Azure, Aws</li>
+                    <li>Outils Devops : Git, Docker, Jenkins</li>
+                    <li>Business Intelligence: Power BI, Tableau</li>
+                    <li>ETL : Talend</li>
+                    <li>Développement web: JEE, PHP, HTML, CSS, Java script, Bootstrap</li>
+                    <li>Gestion de version : Git, Github, Gitlab</li>
+                </ul>
+            </div>
+            <div class="cv-certificates">
+                <h3>Certificats</h3>
+                <p>Certificat en Data Science</p>
+                <p>Formation complète développeur web / Udemy</p> 
+                <p>Introduction to Big Data with Spark and Hadoop / IBM</p>
+                <p>DeepLearning.AI TensorFlow Developer Professional Certificate / Coursera</p>
+                <p>Cloud Computing Specialization / Coursera</p>
+                <p>IBM Data Warehouse Engineer Professional Certificate / Coursera</p>
+            </div>
+        </aside>
+        
+        <main class="cv-main">
+            <section class="cv-header">
+                <h1>LAHBOUCHI Hanae</h1>
+                <h2>Data Engineer</h2>
+            </section>
+            <section class="cv-education">
+                <h3>Formation</h3>
+                <h4>2023-jusqu'à présent:Double diplomation en Master 2 développement logiciel des systèmes d’informations</h4> 
+                <p>Université de Bretagne Occidentale, Brest France.</p>
+                <h4>2020-jusqu'à présent : 3ème année cycle d'ingénieur filière Data Science And Cloud Computing</h4>
+                <p>L'école nationale des sciences appliquées d'Oujda, Maroc.</p>
+                <h4>2019 Baccalauréat internationale en Sciences Mathématiques A option français</h4>
+                <p>Lycée Tarik Ibnou Ziad Azrou, Maroc.</p>
+            </section>
+            <section class="cv-experience">
+                <h3>Expérience Professionnelle</h3>
+                <h4>Data Engineer / Centre Hospitalo-Universitaire Mohammed VI Oujda (juil. 2023 - août 2023)</h4>
+                <p>Analyse des Données Médicales pour la Détection Précoce de la Rétinopathie Diabétique :
+                    Stockage des données médicales dans HDFS
+                    Implémentation des divers filtres médicaux et traitement de données avec Pyspark
+                    Outils & Technologies utilisés: Hadoop, Hive, Cloudera, Pyspark
+                    
+                    
+                    </p>
+                <h4>Data Scientist and Business Analyst / The Sparks Foundation (juin 2022 - juil. 2022 )</h4>
+                <p>Implémentation pratique des différents algorithmes de pre-processing, prediction et data visualization avec Power BI.
+                    Outils & Technologies utilisés: Python, Talend, R, SQL, Power BI</p>
+
+            </section>
+            <section class="cv-projects">
+                <h3>Projets Académiques</h3>
+                <h4>Développement d'un système de recommandation de produits électroniques</h4>
+                <p>Conception d'un système de recommandation basé sur Java intégrant une base de données MySQL pour offrir des suggestions personnalisées de produits électroniques. Implémentation de l'interface utilisateur avec HTML, CSS et JavaScript pour une expérience utilisateur interactive et réactive.
+                    </p>
+                <h4>Analyse des Sentiments des Critiques de Films avec Spark sur Databricks</h4>
+                <p>Réalisation d'une analyse des sentiments sur les critiques de films en utilisant Spark et PySpark sur la plateforme Databricks. Développement de scripts pour le nettoyage des données, l'extraction des caractéristiques et la classification des sentiments en utilisant les techniques de NLP.</p>
+            </section>
+            <section classe="cv-parascolaire">
+                <h3>Activités parascolaires</h3>
+                <li>
+                    Responsable de la cellule rédaction du Club Data Science
+                       Et Cloud Computing.
+                </li> 
+                      
+                <li>Responsable du comité d'organisation de la journée de 
+                       filière Data Science et Cloud Computing.
+                    
+                </li>
+
+            </section>
+        </main>
+        
+    </div>
+    
+    <script src="script.js"></script>
 </body>
 </html>

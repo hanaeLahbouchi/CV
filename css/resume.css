@@ -1,0 +1,103 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f8f8;
+}
+
+.cv-container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.cv-sidebar {
+    background-color: #ffffff;
+    color: #333;
+    padding: 20px;
+    width: 35%;
+}
+
+.cv-main {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    width: 65%;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    
+}
+
+.cv-header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cv-header h2 {
+    font-size: 2em;
+    color: #333;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+.cv-header{
+    padding: 7px;
+}
+
+
+h3 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    padding: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .cv-container {
+        flex-direction: column;
+    }
+
+    .cv-sidebar,
+    .cv-main {
+        width: auto;
+    }
+
+    .profile-image {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+.profile-container{
+    display: flex;
+    justify-content: center; /* Centre verticalement, si vous voulez aussi centrer dans la div entière */
+    
+}
+
+.profile-image {
+    /* La photo est déjà ronde et a une bordure blanche */
+    width: 150px; /* Ou la taille que vous souhaitez */
+    height: 150px; /* Doit être la même que la largeur pour être un cercle parfait */
+    border-radius: 50%;
+}
